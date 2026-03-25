@@ -14,6 +14,7 @@ https://dbeyzade.github.io/electron-microscope-support/
 - Data parsing (Hex, Binary, Decimal)
 - Analysis workflows (FFT, Edge, Histogram EQ, Particle analysis)
 - Stability and compatibility guidance
+- Visual support assets and icon integrated (Build v4)
 
 ## Response Time
 Typical first response within 1-2 business days.
