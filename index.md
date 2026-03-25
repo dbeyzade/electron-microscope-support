@@ -39,6 +39,7 @@ When contacting support, include:
 
 ## Privacy Note
 Electron Microscope processes data locally on your Mac in normal operation.
+Full policy: https://dbeyzade.github.io/electron-microscope-support/privacy.html
 
 ## Response Policy
 Typical first response time is within **1-2 business days**.

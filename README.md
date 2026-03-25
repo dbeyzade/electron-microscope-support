@@ -5,6 +5,9 @@ Professional support resources for Electron Microscope (macOS).
 ## Official Support URL
 https://dbeyzade.github.io/electron-microscope-support/
 
+## Privacy Policy URL
+https://dbeyzade.github.io/electron-microscope-support/privacy.html
+
 ## Support Contact
 - Email: dbeyzade@hotmail.com
 - Issue Tracker: https://github.com/dbeyzade/electron-microscope-support/issues
