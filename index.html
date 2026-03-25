@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electron Microscope Support</title>
+  <meta name="description" content="Official support page for Electron Microscope on macOS. Contact support, get troubleshooting help, and access issue reporting.">
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #dbe3ee;
+      --brand: #0b6cff;
+      --brand-dark: #004ec2;
+      --ok: #0f766e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 20% 0%, #d9e8ff 0%, transparent 40%),
+        radial-gradient(circle at 100% 20%, #d6f5ff 0%, transparent 35%),
+        var(--bg);
+      line-height: 1.6;
+    }
+
+    .container {
+      width: min(1080px, 92vw);
+      margin: 0 auto;
+      padding: 32px 0 64px;
+    }
+
+    .hero {
+      background: linear-gradient(145deg, #0a2a63, #0b6cff);
+      color: #fff;
+      border-radius: 18px;
+      padding: 38px;
+      box-shadow: 0 14px 44px rgba(11, 108, 255, 0.28);
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(1.7rem, 4vw, 2.5rem);
+      letter-spacing: 0.2px;
+    }
+
+    .hero p {
+      margin: 12px 0 0;
+      max-width: 760px;
+      color: #e8f0ff;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .btn {
+      display: inline-block;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 11px 16px;
+      transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
+    }
+
+    .btn-primary {
+      color: #0b2b5c;
+      background: #fff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(12, 1fr);
+      margin-top: 22px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px;
+      box-shadow: 0 4px 22px rgba(15, 23, 42, 0.06);
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.1rem;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .contact {
+      grid-column: span 5;
+    }
+
+    .faq {
+      grid-column: span 7;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 6px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: #e7f8f5;
+      color: var(--ok);
+      font-size: 0.87rem;
+      font-weight: 600;
+    }
+
+    ul {
+      margin: 10px 0 0 18px;
+      padding: 0;
+    }
+
+    .kicker {
+      margin: 18px 0 0;
+      color: #cfe0ff;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .contact, .faq {
+        grid-column: span 12;
+      }
+
+      .hero {
+        padding: 28px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <h1>Electron Microscope Support</h1>
+      <p>
+        Official support for the Electron Microscope macOS application. If you need help with setup,
+        data import, analysis output, or unexpected behavior, contact us directly and we will assist you.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:dbeyzade@hotmail.com?subject=Electron%20Microscope%20Support">Email Support</a>
+        <a class="btn btn-secondary" href="https://github.com/dbeyzade/electron-microscope-support/issues" target="_blank" rel="noopener noreferrer">Open GitHub Issue</a>
+      </div>
+      <p class="kicker">Support email: <strong>dbeyzade@hotmail.com</strong></p>
+    </section>
+
+    <section class="grid">
+      <article class="card contact">
+        <h2>How To Reach Support</h2>
+        <p class="muted">For fastest response, include your macOS version, app version, and a short description of the issue.</p>
+        <ul>
+          <li>Email: <a href="mailto:dbeyzade@hotmail.com">dbeyzade@hotmail.com</a></li>
+          <li>Issue tracker: <a href="https://github.com/dbeyzade/electron-microscope-support/issues" target="_blank" rel="noopener noreferrer">github.com/dbeyzade/electron-microscope-support/issues</a></li>
+        </ul>
+        <span class="status">Typical response: within 1-2 business days</span>
+      </article>
+
+      <article class="card faq">
+        <h2>Common Questions</h2>
+        <p><strong>The app does not start.</strong><br><span class="muted">Update macOS, reinstall the latest build, and relaunch from Applications.</span></p>
+        <p><strong>My data is not parsed correctly.</strong><br><span class="muted">Supported formats are Hex, Binary, and Decimal byte streams. Remove unsupported separators and text labels.</span></p>
+        <p><strong>Analysis output looks empty.</strong><br><span class="muted">Test with a smaller dataset first, then scale up gradually. Extremely sparse input can produce low-contrast output.</span></p>
+        <p><strong>Is data uploaded to a server?</strong><br><span class="muted">No. Analysis data is processed locally on your Mac.</span></p>
+      </article>
+    </section>
+
+    <footer>
+      Electron Microscope Support • Last updated: March 25, 2026
+    </footer>
+  </main>
+</body>
+</html>
